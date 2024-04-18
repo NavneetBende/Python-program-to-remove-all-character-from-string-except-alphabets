@@ -1,0 +1,12 @@
+def removeSpecialCharacter(s):
+t = ""
+for i in s:
+
+# Store only valid characters
+if (i >= 'A' and i <= 'Z') or (i >= 'a' and i <= 'z'):
+t += i
+print(t)
+
+# Driver code
+s = "$Pre*p;i..ns, '^ta?"
+removeSpecialCharacter(s)
